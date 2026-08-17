@@ -1,8 +1,8 @@
 {
   "item.myfirstmod.rybi": "Rybi",
   "item.myfirstmod.palka": "Stick Of Rybi",
-  "item.myfirst.rybi_block": "Block Of Rybi",
   "block.myfirstmod.rybi_block": "Block Of Rybi",
   "block.myfirstmod.rybi_ore_block": "Rybi Ore",
-  "creativetab.myfirstmod.rybi_items": "Rybi Items"
+  "creativetab.myfirstmod.rybi_items": "Rybi Items",
+  "item.myfirstmod.magic_palka": "Magic Palka"
 }
