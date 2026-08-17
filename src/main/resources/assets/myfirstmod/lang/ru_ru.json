@@ -1,4 +1,6 @@
 {
   "item.myfirstmod.rybi": "Рубий",
-  "item.myfirstmod.palka": "Палочка"
+  "item.myfirstmod.palka": "Палочка",
+  "item.myfirst.rybi_block": "Блок Рубия",
+  "block.myfirstmod.rybi_block": "Блок Рубия"
 }

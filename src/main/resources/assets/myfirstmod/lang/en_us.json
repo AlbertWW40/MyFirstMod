@@ -1,4 +1,6 @@
 {
   "item.myfirstmod.rybi": "Rybi",
-  "item.myfirstmod.palka": "Stick"
+  "item.myfirstmod.palka": "Stick",
+  "item.myfirst.rybi_block": "Block Of Rybi",
+  "block.myfirstmod.rybi_block": "Block Of Rybi"
 }

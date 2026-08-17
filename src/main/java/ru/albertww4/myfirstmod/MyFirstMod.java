@@ -29,6 +29,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import ru.albertww4.myfirstmod.blocks.ModBlocks;
 import ru.albertww4.myfirstmod.item.ModItems;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
@@ -53,6 +54,7 @@ public class MyFirstMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
         // Register the item to a creative tab
@@ -80,6 +82,9 @@ public class MyFirstMod {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.Rybi);
             event.accept(ModItems.Palka);
+        }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.Rybi_block);
         }
     }
 
