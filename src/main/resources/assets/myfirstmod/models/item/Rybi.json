@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "texturies": {
+    "layer0": "myfirstmod:item/rybi"
+  }
+}
