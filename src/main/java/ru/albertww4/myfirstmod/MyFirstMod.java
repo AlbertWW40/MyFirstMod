@@ -53,6 +53,7 @@ public class MyFirstMod {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -78,15 +79,7 @@ public class MyFirstMod {
     }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.Rybi);
-            event.accept(ModItems.Palka);
-        }
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
-            event.accept(ModBlocks.Rybi_block);
-        }
-    }
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {}
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
