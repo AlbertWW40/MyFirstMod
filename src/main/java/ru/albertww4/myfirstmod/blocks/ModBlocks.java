@@ -18,8 +18,8 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MyFirstMod.MODID);
 
-    public static final DeferredBlock<Block> Rybi_block = registerBlock("rybi_block", () -> new Block(BlockBehaviour.Properties.of().strength(0.3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final DeferredBlock<Block> Rybi_Ore_block = registerBlock("rybi_ore_block", () -> new Block(BlockBehaviour.Properties.of().strength(0.3f).requiresCorrectToolForDrops().sound((SoundType.STONE))));
+    public static final DeferredBlock<Block> Rybi_block = registerBlock("rybi_block", () -> new Block(BlockBehaviour.Properties.of().strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> Rybi_Ore_block = registerBlock("rybi_ore_block", () -> new Block(BlockBehaviour.Properties.of().strength(1f).requiresCorrectToolForDrops().sound((SoundType.STONE))));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
