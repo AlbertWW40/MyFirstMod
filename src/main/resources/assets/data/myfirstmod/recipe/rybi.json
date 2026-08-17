@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "myfirstmod:rybi_block"
+    }
+  ],
+  "result": {
+    "count": "9",
+    "id": "mufirstmod:rybi"
+  }
+}
