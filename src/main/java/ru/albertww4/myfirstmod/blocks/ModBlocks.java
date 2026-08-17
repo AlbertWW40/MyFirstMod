@@ -7,12 +7,10 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
-import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ru.albertww4.myfirstmod.MyFirstMod;
 import ru.albertww4.myfirstmod.item.ModItems;
 
-import java.util.concurrent.BlockingDeque;
 import java.util.function.Supplier;
 
 public class ModBlocks {
