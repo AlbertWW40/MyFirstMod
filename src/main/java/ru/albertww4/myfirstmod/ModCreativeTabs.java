@@ -22,6 +22,7 @@ public class ModCreativeTabs {
                         output.accept(ModBlocks.Rybi_block);
                         output.accept(ModItems.Palka);
                         output.accept(ModItems.Rybi);
+                        output.accept(ModBlocks.Rybi_Ore_block);
                     }).build());
 
     public static void register(IEventBus eventBus){
