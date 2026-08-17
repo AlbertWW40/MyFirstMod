@@ -54,6 +54,7 @@ public class MyFirstMod {
 
         ModItems.register(modEventBus);
 
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -78,6 +79,7 @@ public class MyFirstMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.Rybi);
+            event.accept(ModItems.Palka);
         }
     }
 
