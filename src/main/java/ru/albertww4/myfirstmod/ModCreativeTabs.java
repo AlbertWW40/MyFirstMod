@@ -22,7 +22,6 @@ public class ModCreativeTabs {
                         output.accept(ModItems.Palka);
                         output.accept(ModItems.Rybi);
                         output.accept(ModBlocks.Rybi_Ore_block);
-                        output.accept(ModItems.CHISEL);
                         output.accept(ModBlocks.MAGIC_BLOCK);
                         output.accept(ModItems.RYBISH);
                         output.accept(ModItems.Rybi_fuel);

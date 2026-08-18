@@ -15,8 +15,6 @@ public class ModItems {
     public static final DeferredItem<Item> Rybi = ITEMS.register("rybi", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> Palka = ITEMS.register("palka", () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> CHISEL = ITEMS.register("chisel", () -> new Item(new Item.Properties().durability(32)));
-
     public static final DeferredItem<Item> RYBISH = ITEMS.register("rybish", () -> new Item(new Item.Properties().food(ModFoodProperties.RYBISH)));
 
     public static final DeferredItem<Item> Rybi_fuel = ITEMS.register("rybi_fuel", () -> new FuelItem(new Item.Properties(), 800));

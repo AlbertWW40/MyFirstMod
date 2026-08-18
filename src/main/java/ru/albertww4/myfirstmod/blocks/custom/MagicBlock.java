@@ -36,11 +36,6 @@ public class MagicBlock extends Block {
                 itemEntity.setItem(new ItemStack(Items.DIAMOND, itemEntity.getItem().getCount()));
             }
         }
-        if(entity instanceof ItemEntity itemEntity){
-            if(itemEntity.getItem().getItem() == Items.OAK_PLANKS){
-                itemEntity.setItem(new ItemStack(Items.DIAMOND, itemEntity.getItem().getCount()));
-            }
-        }
         super.stepOn(level, pos, state, entity);
     }
 }
