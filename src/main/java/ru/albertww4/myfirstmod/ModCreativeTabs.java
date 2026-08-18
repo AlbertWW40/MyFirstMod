@@ -22,7 +22,8 @@ public class ModCreativeTabs {
                         output.accept(ModItems.Palka);
                         output.accept(ModItems.Rybi);
                         output.accept(ModBlocks.Rybi_Ore_block);
-                        output.accept(ModItems.MagicRybiStick);
+                        output.accept(ModItems.CHISEL);
+                        output.accept(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
     public static void register(IEventBus eventBus){

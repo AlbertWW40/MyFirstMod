@@ -9,6 +9,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ru.albertww4.myfirstmod.MyFirstMod;
+import ru.albertww4.myfirstmod.blocks.custom.MagicBlock;
 import ru.albertww4.myfirstmod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -18,6 +19,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> Rybi_block = registerBlock("rybi_block", () -> new Block(BlockBehaviour.Properties.of().strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final DeferredBlock<Block> Rybi_Ore_block = registerBlock("rybi_ore_block", () -> new Block(BlockBehaviour.Properties.of().strength(1f).requiresCorrectToolForDrops().sound((SoundType.STONE))));
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block", () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
