@@ -6,6 +6,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ru.albertww4.myfirstmod.MyFirstMod;
+import ru.albertww4.myfirstmod.item.custom.ModFoodProperties;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MyFirstMod.MODID);
@@ -15,6 +16,7 @@ public class ModItems {
 
     public static final DeferredItem<Item> CHISEL = ITEMS.register("chisel", () -> new Item(new Item.Properties().durability(32)));
 
+    public static final DeferredItem<Item> RYBISH = ITEMS.register("rybish", () -> new Item(new Item.Properties().food(ModFoodProperties.RYBISH)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
