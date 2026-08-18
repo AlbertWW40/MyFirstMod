@@ -5,5 +5,6 @@
   "item.myfirstmod.chisel": "Chisel",
   "block.myfirstmod.rybi_block": "Блок Рубия",
   "block.myfirstmod.rybi_ore_block": "Рубиновая руда",
-  "creativetab.myfirstmod.rybi_items": "Рубиновые предметы"
+  "creativetab.myfirstmod.rybi_items": "Рубиновые предметы",
+  "block.myfirstmod.magic_block": "Волшебный Блок"
 }
