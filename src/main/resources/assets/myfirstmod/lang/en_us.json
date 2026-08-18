@@ -4,8 +4,14 @@
   "item.myfirstmod.chisel": "Chisel",
   "item.myfirstmod.rybish": "Rybish",
   "item.myfirstmod.rybi_fuel": "Rybi Fuel",
+
   "block.myfirstmod.rybi_block": "Block Of Rybi",
   "block.myfirstmod.rybi_ore_block": "Rybi Ore",
   "block.myfirstmod.magic_block": "Magic Block",
-  "creativetab.myfirstmod.rybi_items": "Rybi Items"
+
+  "creativetab.myfirstmod.rybi_items": "Rybi Items",
+
+  "tooltip.myfirstmod.fuelitem": "Press SHIFT",
+  "tooltip.myfirstmod.fuelitem.shift_down": "This is item for remelting",
+  "tooltip.myfirstmod.magic_block": "This is MAGIC Block"
 }

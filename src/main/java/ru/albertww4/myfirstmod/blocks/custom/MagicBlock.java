@@ -1,6 +1,7 @@
 package ru.albertww4.myfirstmod.blocks.custom;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -11,12 +12,15 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import ru.albertww4.myfirstmod.item.ModItems;
+
+import java.util.List;
 
 public class MagicBlock extends Block {
     public MagicBlock(Properties properties) {
@@ -37,5 +41,12 @@ public class MagicBlock extends Block {
             }
         }
         super.stepOn(level, pos, state, entity);
+    }
+
+    // Добавление описания к предмету
+    @Override
+    public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag){
+        tooltipComponents.add(Component.translatable("tooltip.myfirstmod.magic_block"));
+        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }
 }

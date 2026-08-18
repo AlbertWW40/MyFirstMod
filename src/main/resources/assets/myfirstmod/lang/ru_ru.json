@@ -1,12 +1,17 @@
 {
   "item.myfirstmod.rybi": "Рубий",
   "item.myfirstmod.palka": "Палочка Рубия",
-  "item.myfirst.rybi_block": "Блок Рубия",
   "item.myfirstmod.chisel": "Chisel",
   "item.myfirstmod.rybish": "Рубиш",
   "item.myfirstmod.rybi_fuel": "Рубийный Уголек",
+
   "block.myfirstmod.rybi_block": "Блок Рубия",
   "block.myfirstmod.rybi_ore_block": "Рубиновая руда",
+  "block.myfirstmod.magic_block": "Волшебный Блок",
+
   "creativetab.myfirstmod.rybi_items": "Рубиновые предметы",
-  "block.myfirstmod.magic_block": "Волшебный Блок"
+
+  "tooltip.myfirstmod.fuelitem": "Зажмите SHIFT",
+  "tooltip.myfirstmod.fuelitem.shift_down": "Это предмет для переплавки",
+  "tooltip.myfirstmod.magic_block": "Это магический блок"
 }
