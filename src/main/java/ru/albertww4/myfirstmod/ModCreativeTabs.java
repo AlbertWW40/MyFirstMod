@@ -25,6 +25,7 @@ public class ModCreativeTabs {
                         output.accept(ModItems.CHISEL);
                         output.accept(ModBlocks.MAGIC_BLOCK);
                         output.accept(ModItems.RYBISH);
+                        output.accept(ModItems.Rybi_fuel);
                     }).build());
 
     public static void register(IEventBus eventBus){
